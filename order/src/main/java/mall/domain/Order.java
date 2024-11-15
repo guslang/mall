@@ -24,6 +24,8 @@ public class Order {
 
     private Integer qty;
 
+    private Date orderDt;
+
     private Integer status;
 
     @PostPersist

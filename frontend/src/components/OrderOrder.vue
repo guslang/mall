@@ -19,6 +19,7 @@
             <String label="UserId" v-model="value.userId" :editMode="editMode" :inputUI="''"/>
             <String label="ProductId" v-model="value.productId" :editMode="editMode" :inputUI="''"/>
             <Number label="Qty" v-model="value.qty" :editMode="editMode" :inputUI="''"/>
+            <Date label="OrderDt" v-model="value.orderDt" :editMode="editMode" :inputUI="''"/>
             <Number label="Status" v-model="value.status" :editMode="editMode" :inputUI="''"/>
         </v-card-text>
 
